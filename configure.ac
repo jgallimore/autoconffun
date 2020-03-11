@@ -1,4 +1,5 @@
 AC_INIT([amhello], [1.0], [bug-automake@gnu.org])
+AC_CONFIG_AUX_DIR([build-aux])
 AC_PROG_CC
 AC_CHECK_HEADERS(zlib.h)
 AC_SEARCH_LIBS(deflate, z)
